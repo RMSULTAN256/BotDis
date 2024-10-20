@@ -1,0 +1,14 @@
+{
+    "name": "dis",
+    "version": "1.0.0",
+    "dependencies": {
+      "express": "^4.17.1",
+      "lodash": "^4.17.21",
+      "axios": "^0.21.1",
+      "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6"
+    }
+  }
+  
