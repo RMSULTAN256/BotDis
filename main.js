@@ -12,8 +12,8 @@ const client = new Client({
   ],
 });
 
-const DISCORD_TOKEN = "MTE4Njg3OTg0Nzc5MjkwNjMwMQ.GPatNy.uyW9kLZE8sVNB7slKqayblbkWMPHlxThfYM6PQ"; // Your Discord bot token
-const genAI = new GoogleGenerativeAI("AIzaSyD4OUBGUPmyziK1EXT-O-fc4EyWdzA2GwM"); // Your Gemini API key
+const DISCORD_TOKEN = "TOKEN_DISCORD"; // Your Discord bot token
+const genAI = new GoogleGenerativeAI("API_KEY"); // Your Gemini API key
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' }); // Select the model
 
 // Event listener for messages
