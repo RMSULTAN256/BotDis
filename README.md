@@ -3,9 +3,7 @@ This bot will try every Open Source API, I will try to implementation until it f
 
 ## Library
 ```
-npm install discord.jd
-npm install express
-npm install axios
-npm cheerio
-npm install dotenv
+npm install
 ```
+
+
