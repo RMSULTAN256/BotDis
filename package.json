@@ -4,7 +4,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node Resperance.js"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +13,18 @@
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
     "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "discord-rpc": "^4.0.1",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
     "openai": "^4.68.0",
     "opengpt": "^0.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
